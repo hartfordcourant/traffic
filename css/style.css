@@ -1,0 +1,31 @@
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0;}
+input, button:focus, textarea, select, a { outline: none; }
+
+table#alert_markers{display:none;}
+
+#map-canvas { width:100%;height:100% }
+#control-map-canvas { width:100%;height:500px; }
+
+.navbar-inverse{background-color:rgba(34,34,34,.9);border-bottom:1px solid #000;}
+.navbar-header img{width:137px; height:24px; border-right: 1px solid #fff; padding-right: 15px;}
+.navbar-header #nav-label{float:left; margin:0; padding:12px 0 0 0; color:#fff;font-size: 22px;font-weight: 100;letter-spacing: 1px;}
+
+#traffic-control{margin-top:50px;padding-bottom:15px;}
+#traffic-control #intro{margin-bottom:20px;background-color:rbga(255,255,255,.8)!important;}
+#traffic-control .page{display:none;}
+#traffic-control .insert.page{display:block;}
+#traffic-control .message{margin-top:15px; color:green; font-style: italic;}
+#message{display:none;}
+#results{position:absolute;top:0;left:0;z-index:-1;display:none;}
+
+/* Buttons */
+
+.btn.btn-default.btn-sm.active{background-color: #428bca;border-color: #357ebd; color:#fff;}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width : 768px) {
+	.container>.navbar-header{width:100%;}
+	#traffic-control{margin-top:20px; }
+}
