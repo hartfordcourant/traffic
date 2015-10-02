@@ -5,8 +5,8 @@ function getActiveEvents(){
   $message="";
   // server authentication
   $ftp_server = 'sfile.ct.gov';
-  $ftp_user_name = 'ITIMdata'; // Username
-  $ftp_user_pass = 'ITIM2909'; // Password
+  $ftp_user_name = 'xxx'; // Username
+  $ftp_user_pass = 'xxx'; // Password
   
   // set up basic connection
   $conn_id = ftp_connect($ftp_server);
